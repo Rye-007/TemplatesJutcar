@@ -1,0 +1,124 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Kanit', sans-serif;
+
+}
+
+
+.back img,
+.back a {
+    width: 0.4rem;
+    height: 0.7rem;
+    color: black;
+    text-decoration: none;
+}
+
+h3 {
+    font-size: 1rem;
+    margin-left: 3rem;
+    padding-top: 1rem;
+}
+
+.body_input {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.body_input .box1 {
+    margin: 2rem 0rem 0 0.7rem;
+}
+
+.body_input .box2 {
+    margin: 2rem 0 0 0.7rem;
+}
+
+
+.body_input .box1 .form-control,
+.body_input .box2 .form-control {
+    margin-bottom: 0.8rem;
+    border: 1px solid;
+    box-shadow: 2px 2px 2px 0px #ababab;
+}
+
+.body_input div {
+    text-align: left;
+}
+
+
+.container .row .edit {
+    display: flex;
+    justify-content: end;
+}
+
+.container .row .edit_b {
+    width: 4rem;
+    height: 2rem;
+    background: #FFE86E;
+    border: none;
+    border-radius: 0.5rem;
+    margin-left: auto;
+}
+
+#allp{
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+
+.row{
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 1rem;
+}
+
+.container .container {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+
+.table-responsive .table {
+
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+
+}
+
+.table-responsive {
+    border-radius: 1rem 1rem 0 0;
+}
+
+.table thead th {
+    font-weight: 200;
+    color: #fff;
+
+}
+
+.table tbody td {
+    font-weight: 100;
+}
+
+.table .detail {
+    width: 8rem;
+}
+
+.container .table1{
+    margin-right: 2rem;
+}
+
+@media screen and (max-width: 1200px) {
+    .container .container {
+        display: block;
+    }
+
+    .table1,
+    .table2 {
+        margin-bottom: 2rem;
+    }
+
+    .container {
+        padding: 0;
+        margin: 0;
+    }
+
+}
+

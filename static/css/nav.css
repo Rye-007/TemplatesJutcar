@@ -1,0 +1,27 @@
+nav{
+  background: #16213e;
+}
+
+h4{
+  padding-left: 3rem;
+}
+
+.navbar-nav a{
+  font-size: 0.9rem;
+  color: #fff;
+  text-decoration: none;
+  margin-right: 2rem;
+}
+
+.container-fluid .input-group{
+  margin-right: 1rem;
+}
+
+.navbar-nav a:hover{
+  color: #1298BC;
+}
+
+.offcanvas-body .dropdown{
+  margin-left: 4rem;
+  font-size: 1rem;
+}

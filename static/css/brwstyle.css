@@ -1,0 +1,140 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:400,500,600,700&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Kanit', sans-serif;
+}
+
+body {
+  background-color: #fff;
+
+}
+
+.row {
+  padding-top: 1rem;
+}
+
+.show {
+  display: flex;
+  justify-content: start;
+}
+
+.show .all .text_1,
+.show .used .text_1,
+.show .left .text_1{
+  margin-right: 0.5rem;
+}
+
+.show .all .form-control,
+.show .used .form-control,
+.show .left .form-control{
+  width: 2.5rem;
+  height: 1.5rem;
+  border: 1px solid;
+}
+
+.show .all {
+  display: flex;
+  margin-right: 0.5rem;
+}
+
+.show .used {
+  display: flex;
+  margin-right: 0.5rem;
+}
+
+.show .left {
+  display: flex;
+  margin-right: 0.5rem;
+}
+
+.show .all .form-select,
+.show .used .form-select,
+.show .left .form-select{
+  padding-top: 1px;
+  height: 1.5rem;
+  font-size: 14px;
+}
+
+.show .all .text_1,
+.show .left .text_1{
+  min-width: 50px;
+}
+
+.show .used .text_1{
+  min-width: 70px;
+}
+
+.show .box{
+  display: flex;
+}
+
+.row .b_do {
+  display: flex;
+  justify-content: end;
+  margin-bottom: 1rem;
+}
+
+.row .b_go{
+  margin-left: 2rem;
+  margin-bottom: 1rem;
+}
+
+.row .b_go .go{
+  width: 4rem;
+  height: 1.6rem;
+  background: #E94560;
+  color: #fff;
+  border: none;
+  border-radius: 0.5rem;
+}
+
+.row .b_do .do {
+  width: 9rem;
+  height: 2.3rem;
+  background: #00B448;
+  color: #fff;
+  border: none;
+  border-radius: 0.8rem;
+}
+
+
+.table-responsive {
+  margin-top: 0.3rem;
+  border-radius: 1rem 1rem 0 0;
+}
+
+.table {
+  font-size: 1rem;
+  font-weight: 100;
+  text-align: start;
+}
+
+.table thead th {
+  font-weight: 200;
+  color: #fff;
+}
+
+.table .detail_button {
+  width: 7rem;
+  background: #E0EA6C;
+  border-radius: 0.5rem;
+  border: none;
+}
+
+.table .detail {
+  width: 25rem;
+}
+
+.table .detail_b {
+  width: 10rem;
+}
+
+@media screen and (max-width:550px) {
+  div .show{
+    display: block;
+  }
+  
+}
